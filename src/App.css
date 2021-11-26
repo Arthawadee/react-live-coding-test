@@ -36,3 +36,87 @@
     transform: rotate(360deg);
   }
 }
+
+.pokemonList {
+  list-style: none;
+}
+
+.pokemonList li,
+button {
+  cursor: pointer;
+}
+
+.pokemonList li:hover {
+  color: yellow;
+}
+
+.filterInput label {
+  margin-right: 10px;
+}
+
+.filterInput input {
+  font-size: 20px;
+}
+
+.modalContainer {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.pokemonTable {
+  width: 50%;
+  min-width: 320px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.pokemonTable tr {
+  color: #bbbbbb;
+  background-color: #545454;
+}
+
+.pokemonTable tr:nth-child(odd) {
+  background-color: #3a3a3a;
+}
+
+.pokemonTable td {
+  padding: 5px 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background: #1976d2;
+  transition: all 0.3s ease-out;
+}
+
+button:hover {
+  color: white;
+  background: #1565c0;
+}
+
+.downloadPDFBtn {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background: #686868;
+  transition: all 0.3s ease-out;
+}
+
+.downloadPDFBtn:hover {
+  background: #555555;
+}
+
+.paginationContainer {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 4px;
+}
